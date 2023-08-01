@@ -107,26 +107,28 @@ class _TaskListingPageState extends State<TaskListingPage> {
                                     mainAxisAlignment:
                                         MainAxisAlignment.spaceBetween,
                                     children: [
-                                      Column(
-                                        mainAxisSize: MainAxisSize.min,
-                                        crossAxisAlignment:
-                                            CrossAxisAlignment.start,
-                                        children: [
-                                          Text(task.title,
-                                              style: Theme.of(context)
-                                                  .textTheme
-                                                  .headlineSmall
-                                                  ?.copyWith(
-                                                      decoration:
-                                                          task.isCompleted
-                                                              ? TextDecoration
-                                                                  .lineThrough
-                                                              : null)),
-                                          SizedBox(height: 10),
-                                          Text(
-                                            task.notes,
-                                          ),
-                                        ],
+                                      Expanded(
+                                        child: Column(
+                                          mainAxisSize: MainAxisSize.min,
+                                          crossAxisAlignment:
+                                              CrossAxisAlignment.start,
+                                          children: [
+                                            Text(task.title,
+                                                style: Theme.of(context)
+                                                    .textTheme
+                                                    .headlineSmall
+                                                    ?.copyWith(
+                                                        decoration:
+                                                            task.isCompleted
+                                                                ? TextDecoration
+                                                                    .lineThrough
+                                                                : null)),
+                                            SizedBox(height: 10),
+                                            Text(
+                                              task.notes,
+                                            ),
+                                          ],
+                                        ),
                                       ),
                                       Checkbox(
                                         value: task.isCompleted,
