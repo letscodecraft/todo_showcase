@@ -1,16 +1,28 @@
-# todo_with_showcase
+# Flutter Todo App With ShowcaseView
 
-A new Flutter project.
+This is a simple Todo App created using Flutter. Showcase view is also implemented in the app.
+
+## Features
+
+- Showcase view for using app.
+- Add new tasks to the todo list.
+- Mark tasks as completed or incomplete.
+- Delete tasks from the todo list.
+- Clear all completed tasks with a single click.
+
+## Screenshots
+
+<img src="assets/img/Screenshot_1690881139.png" alt="Loading" width="300">
+<img src="assets/img/Screenshot_1690881296.png" alt="Loaded" width="300">
+
+## Requirements
+
+- Flutter SDK (follow the official guide to install: https://flutter.dev/docs/get-started/install)
+- Any compatible IDE (Android Studio / VSCode / IntelliJ)
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+1. Clone this repository to your local machine using:
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+   ```bash
+   git clone https://github.com/letscodecraft/todo_showcase.git
