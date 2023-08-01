@@ -14,6 +14,7 @@ This is a simple Todo App created using Flutter. Showcase view is also implement
 
 <img src="assets/img/Screenshot_1690881139.png" alt="Loading" width="300">
 <img src="assets/img/Screenshot_1690881296.png" alt="Loaded" width="300">
+<img src="assets/img/Screenshot_1690881301.png" alt="Loaded" width="300">
 
 ## Requirements
 
